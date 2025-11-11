@@ -1,7 +1,9 @@
 package main
 
-import goroutines "go_concurrency/internal"
+//import goroutines "go_concurrency/internal/goroutines"
+import channels "go_concurrency/internal/channels"
 
 func main() {
-	goroutines.RunGoroutinesHomework()
+	//goroutines.RunGoroutinesHomework()
+	channels.ChannelsHomework()
 }

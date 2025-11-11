@@ -18,5 +18,4 @@ func ChannelsHomework() {
 	for i := 0; i < 3; i++ {
 		fmt.Println(<-result)
 	}
-	close(result)
 }
